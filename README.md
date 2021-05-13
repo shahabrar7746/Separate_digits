@@ -1,2 +1,2 @@
-# Speperate_digits
-Enter any number and it will sperate the digits out of it.
+# Separate_digits
+Enter any number and it will separate the digits out of it.
