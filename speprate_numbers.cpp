@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
-{int n,r,reversedNumber=0,remainder;
+{int n,reversedNumber=0,remainder;
 
     cout<<"Enter Your Number:";
     cin>>n;
@@ -14,10 +14,10 @@ int main()
    
     while(reversedNumber!=0)
     {
-               r=reversedNumber%10;
+               n=reversedNumber%10;
                reversedNumber=reversedNumber/10;
 
-               cout<<r<<",";
+               cout<<n<<",";
     }
     cout<<"\n";
     system("pause");
